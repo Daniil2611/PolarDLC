@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.simpleaimbot.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "FireOverlayMixin",
+    "freelook.CameraMixin",
+    "freelook.EntityMixin",
+    "HeldItemRendererMixin",
+    "ClientPlayerSwingMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "ClientConnectionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

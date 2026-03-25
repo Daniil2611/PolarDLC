@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "simpleaimbot",
+  "version": "0.2.0",
+  "name": "PolarDLC",
+  "description": "PolarDLC client with combat, render, movement, and camera utilities.",
+  "authors": [
+    "fabric-aimbot"
+  ],
+  "license": "MIT",
+  "icon": "assets/simpleaimbot/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.simpleaimbot.SimpleAimbotMod",
+      "com.example.simpleaimbot.freelook.freelook.FreeLookMod"
+    ]
+  },
+  "mixins": [
+    "mixins.simpleaimbot.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "fabric-api": "*",
+    "minecraft": ">=1.21.4",
+    "java": ">=21"
+  }
+}

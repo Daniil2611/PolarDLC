@@ -1,0 +1,3 @@
+v1	named	intermediary
+METHOD	com/example/simpleaimbot/mixin/freelook/CameraMixin	(FF)V	setRotation	method_19325
+METHOD	com/example/simpleaimbot/mixin/HeldItemRendererMixin	(FFLnet/minecraft/client/util/math/MatrixStack;ILnet/minecraft/util/Arm;)V	swingArm	method_65816

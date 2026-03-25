@@ -1,0 +1,52 @@
+{
+  "mappings": {
+    "com/example/simpleaimbot/mixin/ClientConnectionMixin": {
+      "send": "Lnet/minecraft/class_2535;method_10743(Lnet/minecraft/class_2596;)V"
+    },
+    "com/example/simpleaimbot/mixin/ClientPlayerEntityMixin": {
+      "tickMovement": "Lnet/minecraft/class_746;method_6007()V"
+    },
+    "com/example/simpleaimbot/mixin/ClientPlayerInteractionManagerMixin": {
+      "attackEntity": "Lnet/minecraft/class_636;method_2918(Lnet/minecraft/class_1657;Lnet/minecraft/class_1297;)V"
+    },
+    "com/example/simpleaimbot/mixin/ClientPlayerSwingMixin": {
+      "getHandSwingDuration": "Lnet/minecraft/class_1309;method_6028()I"
+    },
+    "com/example/simpleaimbot/mixin/FireOverlayMixin": {
+      "renderFireOverlay": "Lnet/minecraft/class_4603;method_23070(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;)V"
+    },
+    "com/example/simpleaimbot/mixin/freelook/CameraMixin": {
+      "Lnet/minecraft/client/render/Camera;setRotation(FF)V": "Lnet/minecraft/class_4184;method_19325(FF)V",
+      "update": "Lnet/minecraft/class_4184;method_19321(Lnet/minecraft/class_1922;Lnet/minecraft/class_1297;ZZF)V"
+    },
+    "com/example/simpleaimbot/mixin/freelook/EntityMixin": {
+      "changeLookDirection": "Lnet/minecraft/class_1297;method_5872(DD)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/example/simpleaimbot/mixin/ClientConnectionMixin": {
+        "send": "Lnet/minecraft/class_2535;method_10743(Lnet/minecraft/class_2596;)V"
+      },
+      "com/example/simpleaimbot/mixin/ClientPlayerEntityMixin": {
+        "tickMovement": "Lnet/minecraft/class_746;method_6007()V"
+      },
+      "com/example/simpleaimbot/mixin/ClientPlayerInteractionManagerMixin": {
+        "attackEntity": "Lnet/minecraft/class_636;method_2918(Lnet/minecraft/class_1657;Lnet/minecraft/class_1297;)V"
+      },
+      "com/example/simpleaimbot/mixin/ClientPlayerSwingMixin": {
+        "getHandSwingDuration": "Lnet/minecraft/class_1309;method_6028()I"
+      },
+      "com/example/simpleaimbot/mixin/FireOverlayMixin": {
+        "renderFireOverlay": "Lnet/minecraft/class_4603;method_23070(Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;)V"
+      },
+      "com/example/simpleaimbot/mixin/freelook/CameraMixin": {
+        "Lnet/minecraft/client/render/Camera;setRotation(FF)V": "Lnet/minecraft/class_4184;method_19325(FF)V",
+        "update": "Lnet/minecraft/class_4184;method_19321(Lnet/minecraft/class_1922;Lnet/minecraft/class_1297;ZZF)V"
+      },
+      "com/example/simpleaimbot/mixin/freelook/EntityMixin": {
+        "changeLookDirection": "Lnet/minecraft/class_1297;method_5872(DD)V"
+      }
+    }
+  }
+}
